@@ -1,0 +1,91 @@
+<!-- <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+    <div class="position-sticky pt-3 sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">
+            <i class="bi bi-house"></i>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">
+            <i class="bi bi-patch-question"></i>
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <title>Dashboard</title>
+    <style>
+        /* Basic reset for padding and margin */
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        /* Styling for the sidebar */
+        #sidebarMenu {
+            background-color: black; /* Black background for the sidebar */
+            color: white; /* White text color */
+            width: 240px; /* Sidebar width */
+            height: 100vh; /* Full height */
+            position: fixed; /* Fixed position */
+            padding-top: 20px; /* Padding on top */
+        }
+
+        /* Unordered list styling */
+        ul {
+            list-style-type: none; /* No bullets */
+            padding: 0; /* No padding */
+        }
+
+        /* List item styling */
+        .nav-item {
+            margin: 10px 0; /* Margin for spacing between items */
+        }
+
+        /* Link styling */
+        .nav-link {
+            color: white; /* White text color for links */
+            text-decoration: none; /* No underline */
+            padding: 10px; /* Padding for better visual spacing */
+            display: block; /* Makes the link take the full width of the list item */
+        }
+
+        .nav-link.active, .nav-link:hover {
+            color: #add8e6; /* Light blue color when active or hovered */
+        }
+
+        /* Content area styling */
+        .content {
+            margin-left: 250px; /* Push content to the right of the sidebar */
+            padding: 20px; /* Padding around the content */
+        }
+    </style>
+</head>
+<body>
+    <nav id="sidebarMenu">
+        <div>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
